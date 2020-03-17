@@ -22,7 +22,7 @@ moudle.exports = {
       default: "a React +typescript project"
     },
     version: {
-      when: 'isNotTest',
+      when: "isNotTest",
       type: 'string',
       default: '1.0.0'
     },
@@ -37,7 +37,7 @@ moudle.exports = {
       message: "安装react-router?"
     },
     redux: {
-      when: 'isNotTest',
+      when: "isNotTest",
       type: 'confirm',
       message: '安装redux?'
     },
