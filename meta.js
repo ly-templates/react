@@ -1,4 +1,4 @@
-moudle.exports = {
+module.exports = {
   helpers: {
     if_or(v1, v2, options) {
       if (v1 || v2) {
