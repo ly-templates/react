@@ -56,21 +56,20 @@ module.exports = {
     autoInstall: {
       when: 'isNotTest',
       type: 'list',
-      message:
-        'Should we run `npm install` for you after the project has been created? (recommended)',
+      message: '创建项目后，我们应该为您运行`npm install`吗?',
       choices: [
         {
-          name: 'Yes, use NPM',
+          name: '是的, 使用npm',
           value: 'npm',
           short: 'npm',
         },
         {
-          name: 'Yes, use Yarn',
+          name: '是的，使用yarn',
           value: 'yarn',
           short: 'yarn',
         },
         {
-          name: 'No, I will handle that myself',
+          name: '不, 我手动操作',
           value: false,
           short: 'no',
         },
