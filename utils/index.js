@@ -30,7 +30,7 @@ exports.installDependencies = function installDependencies(
   executable = 'npm',
   color
 ) {
-  console.log(`\n\n# ${color('Installing project dependencies ...')}`)
+  console.log(`\n\n# ${color('安装项目依赖 ...')}`)
   console.log('# ========================\n')
   return runCommand(executable, ['install'], {
     cwd,
@@ -67,7 +67,7 @@ exports.runLintFix = function runLintFix(cwd, data, color) {
  */
 exports.printMessage = function printMessage(data, { green, yellow }) {
   const message = `
-# ${green('Project initialization finished!')}
+# ${green('项目初始化完成!')}
 # ========================
 
 To get started:

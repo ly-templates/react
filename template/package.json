@@ -4,15 +4,15 @@
   "description": "{{description}}",
   "main": "./src/index.tsx",
   "dependencies": {
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
     {{#redux}}
     "react-redux": "^7.2.0",
     "redux": "^3.7.2",
     {{/redux}}
     {{#router}}
-    "react-router-dom": "^5.1.2"
+    "react-router-dom": "^5.1.2",
     {{/router}}
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
   },
   "devDependencies": {
     "@types/react": "^16.9.23",
