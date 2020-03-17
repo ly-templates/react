@@ -1,14 +1,10 @@
 { 
   "noEscape": true,
-  "name": "test",
-  "description": "A Vue.js project",
-  "author": "CircleCI",
-  "build": "standalone",
+  "name": "demo",
+  "version":"1.0.0",
+  "description": "a reac+ typescript project",
+  "author": "harhao",
   "router": false,
-  "lint": true,
-  "lintConfig": "airbnb",
-  "unit": true,
-  "runner": "karma",
-  "e2e": true,
+  "redux": false,
   "autoInstall": false
 }

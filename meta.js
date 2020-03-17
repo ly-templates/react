@@ -45,14 +45,11 @@ module.exports = {
       when: "isNotTest",
       type: 'confirm',
       message: '安装redux?'
-    },
-    completeMessage: "安装成功"
+    }
   },
   filters: {
     'src/reducers/**/*': "redux",
     'src/types/**/*': "redux"
   },
-  complete: function() {
-    console.log("generate success")
-  }
+  completeMessage: "安装成功"
 };
