@@ -4,6 +4,7 @@ const {
   runLintFix,
   printMessage,
 } = require('./utils')
+const path = require('path')
 const { addTestAnswers } = require('./scenarios')
 module.exports = {
   metalsmith: {
