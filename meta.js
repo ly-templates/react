@@ -36,6 +36,7 @@ module.exports = {
     version: {
       when: "isNotTest",
       type: 'string',
+      message: '版本号',
       default: '1.0.0'
     },
     author: {
