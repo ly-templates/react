@@ -4,7 +4,13 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 module.exports = {
     name: "production",
     entry: {
-        framework: [ {{#redux}}"redux", "react-redux",{{/redux}}"react", "react-dom",]
+        framework: [
+            {{#redux}}
+            "redux",
+             "react-redux",
+            {{/redux}}
+            "react", 
+            "react-dom"]
     },
     output: {
         filename: "[name].dll.js",

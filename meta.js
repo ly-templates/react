@@ -79,7 +79,8 @@ module.exports = {
   },
   filters: {
     'src/reducers/**/*': "redux",
-    'src/types/**/*': "redux"
+    'src/types/**/*': "redux",
+    'src/constants/**/*': "redux",
   },
   complete: function(data, { chalk }) {
     const green = chalk.green
